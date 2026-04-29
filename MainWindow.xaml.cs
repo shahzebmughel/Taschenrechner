@@ -20,5 +20,10 @@ namespace Taschenrechner
         {
             InitializeComponent();
         }
+
+        private void NumBtn(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

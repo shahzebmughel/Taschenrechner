@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="NumBtn1" Content="1" HorizontalAlignment="Left" Margin="290,227,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <TextBox x:Name="InputTxt" HorizontalAlignment="Left" Margin="290,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" Height="28"/>
+        <Button x:Name="NumBtn2" Content="2" HorizontalAlignment="Left" Margin="345,227,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn3" Content="3" HorizontalAlignment="Left" Margin="400,227,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn4" Content="4" HorizontalAlignment="Left" Margin="290,195,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn5" Content="5" HorizontalAlignment="Left" Margin="345,195,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn6" Content="6" HorizontalAlignment="Left" Margin="400,195,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn7" Content="7" HorizontalAlignment="Left" Margin="290,165,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn8" Content="8" HorizontalAlignment="Left" Margin="345,165,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn9" Content="9" HorizontalAlignment="Left" Margin="400,165,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBtn0" Content="0" HorizontalAlignment="Left" Margin="290,259,0,0" VerticalAlignment="Top" Height="27" Width="105" Click="NumBtn"/>
+        <Button x:Name="NumBtnC" Content="C" HorizontalAlignment="Left" Margin="290,133,0,0" VerticalAlignment="Top" Height="27" Width="105" Click="NumBtn"/>
+        <Button x:Name="NumBtnEquals" Content="=" HorizontalAlignment="Left" Margin="400,259,0,0" VerticalAlignment="Top" Height="27" Width="50" Click="NumBtn"/>
+        <Button x:Name="NumBackSpace" Content="⌫" HorizontalAlignment="Left" Margin="400,133,0,0" VerticalAlignment="Top" Height="27" Width="87" Click="NumBtn"/>
+        <Button x:Name="NumBtnPlus" Content="+" HorizontalAlignment="Left" Margin="455,227,0,0" VerticalAlignment="Top" Height="27" Width="32" Click="NumBtn"/>
+        <Button x:Name="NumBtnMinus" Content="-" HorizontalAlignment="Left" Margin="455,195,0,0" VerticalAlignment="Top" Height="27" Width="32" Click="NumBtn"/>
+        <Button x:Name="NumBtnMultiplication" Content="x" HorizontalAlignment="Left" Margin="455,165,0,0" VerticalAlignment="Top" Height="27" Width="32" Click="NumBtn"/>
+        <Button x:Name="NumBtnDivider" Content="/" HorizontalAlignment="Left" Margin="455,259,0,0" VerticalAlignment="Top" Height="27" Width="32" Click="NumBtn"/>
 
     </Grid>
 </Window>
