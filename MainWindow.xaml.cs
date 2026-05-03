@@ -82,12 +82,16 @@ namespace Taschenrechner
 
         private void NumBtnClear(object sender, RoutedEventArgs e)
         {
+            if (InputTxt.Text.Length == 0) { return; }
 
+            InputTxt.Text = InputTxt.Text.Substring(InputTxt.Text.Length);
         }
 
         private void NumBtnBackSpace(object sender, RoutedEventArgs e)
         {
+            if(InputTxt.Text.Length == 0) { return; }
 
+            InputTxt.Text = InputTxt.Text.Substring(0,InputTxt.Text.Length - 1);
         }
     }
 }
